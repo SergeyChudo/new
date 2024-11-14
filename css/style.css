@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'monserra-bolt' ;
+    src: url(/font/monserra-bolt.oft);
+}
+body {
+    font-family: "Montserrat", sans-serif;  
+ background: linear-gradient(to top, #b1eebf, #000000);   
+ color: wheat;
+ font-size: 24px;
+ margin-left: 60px;
+ margin-right: 60px;
+}
+
+h1 {
+
+    color: blueviolet;
+    font-size: 54px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+h2 {
+    color: #1215ce;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+ul{
+    list-style-image: url(./play.svg);
+    color: #ce12c5;
+}
+img { position: absolute;
+    top: 400px;
+    left: 400px;
+}
+form { 
+    position: relative;
+}
+.form_button {
+    position: absolute;
+    top: 100px;
+    left: 200px;    
+}
+button {  
+    border-radius: 100px;
+    padding: 10px 20px;
+
+}
+button:hover {
+    background: #8a2be2;
+   
+}
+
+p {
+    font-family: 'monserra-bolt';
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+h5 {
+    position: sticky;
+    top: 100px;
+}
+input:focus {
+    background: #8a2be2;
+    padding:10px;
+
+}
+ul > li:first-child{
+    font-size: 42px;
+}
+ol > li:last-child{
+    font-size: 42px;}
+input::placeholder{
+    font-size: 16px;
+    color: azure;
+}
+
